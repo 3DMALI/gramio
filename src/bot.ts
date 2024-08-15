@@ -1,5 +1,6 @@
 import { Buffer } from "node:buffer";
 import fs from "node:fs/promises";
+import fetch, { Headers } from 'node-fetch-commonjs';
 import { CallbackData } from "@gramio/callback-data";
 import {
 	type Attachment,
